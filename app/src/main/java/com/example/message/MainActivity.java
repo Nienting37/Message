@@ -18,5 +18,12 @@ public class MainActivity extends AppCompatActivity {
     private void TestMaster() {
         TextView txv = (TextView) findViewById(R.id.txv);
         txv.setText("Master分支");
+        Test123();
+
+    }
+
+    private void Test123() {
+        TextView txv = (TextView) findViewById(R.id.txv);
+        txv.setText("123分支");
     }
 }
